@@ -1,0 +1,10 @@
+1. What is the value of y in binary format in the below snippet?
+
+reg [5:0] y;
+initial
+begin
+y= 'Ox2;
+end
+
+
+answer:y = 'Ox2;
