@@ -1,0 +1,12 @@
+4. Find the value of the variable t at 1ns & 20 ns respectively from the below
+
+snippet.
+time = t;
+initial begin
+#10 t= $time;
+#20 ;
+end
+
+
+answer: #10 t = $time;
+#20;
