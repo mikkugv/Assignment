@@ -8,3 +8,7 @@ a= 3'd5;
 b= 3'b111
 y = a&&b;
 end
+
+answer:
+Both non-zero
+y = 1
