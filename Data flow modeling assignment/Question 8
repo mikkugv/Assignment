@@ -7,4 +7,4 @@ $display("Value of s= %s",s[104:65]);
 end
 
 answer:
-$display("Value of s = %s", s[104:65]);
+Value of s = hello
