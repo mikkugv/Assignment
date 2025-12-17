@@ -7,4 +7,5 @@ y= 'Ox2;
 end
 
 
-answer:y = 'Ox2;
+answer:
+y = 000010 (6-bit)
