@@ -4,5 +4,5 @@ module test(output [32:0]b);
 assign b = a;
 endmodule
 
-answer:real a = 14.5;
-assign b = a;
+answer:
+b = 14
