@@ -6,4 +6,5 @@ begin
 b= -‘d12/3;
 end
 
-answer:b = -'d12 / 3;
+answer:
+b = -4
