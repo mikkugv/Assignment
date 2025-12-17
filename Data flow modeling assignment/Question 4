@@ -8,5 +8,6 @@ initial begin
 end
 
 
-answer: #10 t = $time;
-#20;
+answer:
+At 1ns → t = x 
+At 20ns → t = 10
