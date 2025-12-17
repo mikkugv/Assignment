@@ -1,0 +1,10 @@
+8. What will be displayed in the console mode for the below snippet?
+reg[13*8:1]s;
+initial
+begin
+s = "hello world";
+$display("Value of s= %s",s[104:65]);
+end
+
+answer:
+$display("Value of s = %s", s[104:65]);
