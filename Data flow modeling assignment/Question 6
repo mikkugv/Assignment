@@ -10,4 +10,4 @@ endmodule
 
 
 answer:
-test #(16) OUT();
+WIDTH = 16
