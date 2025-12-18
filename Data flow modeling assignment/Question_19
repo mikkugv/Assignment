@@ -1,0 +1,11 @@
+19. Implementing various gates using multiplexer
+
+a. Implement AND, OR, NAND, NOR, XOR, XNOR using multiplexer
+
+
+answer:
+Use 2:1 MUX
+AND → Y = S ? B : 0
+OR → Y = S ? 1 : B
+XOR → Y = S ? ~B : B
+NAND / NOR / XNOR → invert output
