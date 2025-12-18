@@ -1,0 +1,7 @@
+20. Implement 4x1 Mux using continuous assignments, i.e. Data flow model.
+
+a. Assign Y = S1 ? (S0 ? i3 : i2) : (S0 ? i1 : i0);
+i. Do not code assign inside always
+
+answer:
+assign Y = S1 ? (S0 ? i3 : i2) : (S0 ? i1 : i0);
