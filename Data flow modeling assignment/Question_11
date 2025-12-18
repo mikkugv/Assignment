@@ -9,3 +9,4 @@ x = ^a;
 end
 
 answer:
+x = 3'b111
