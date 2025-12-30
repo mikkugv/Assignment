@@ -1,0 +1,38 @@
+10. Find the output for the below codes:
+
+1) reg a,b;
+always@(a,b) begin
+#10 a <= 1'b0;
+#1 b <= 1'b1;
+a <= 1;
+#5 b <= a;
+$display($time,"a=%d,b=%d",a,b);
+end
+2) reg a,b;
+always@(a,b) begin
+#10 a = 1'b0;
+#1 b = 1'b1;
+a = 1;
+#5 b = a;
+$display($time,"a=%d,b=%d",a,b);
+end
+3) reg a,b;
+initial begin
+a=1;
+b=a;
+$display($time,"a=%d,b=%d",a,b);
+end
+initial begin
+#1 a<=1;
+b<=a;
+$display($time,"a=%d,b=%d",a,b);
+end
+
+answer:
+case 1:
+16 a=x b=x
+case 2:
+16 a=1 b=1
+case 3:
+0 a=1 b=1
+1 a=1 b=1
