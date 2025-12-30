@@ -1,0 +1,18 @@
+11. For the below RTL schematic write the RTL snippet
+module rtl_from_schematic (
+    input  wire clock,
+    input  wire x1,
+    input  wire x2,
+    input  wire x3,
+    output reg  f,
+    output reg  g
+);
+    wire d_f;
+    wire d_g;
+    assign d_f = x1 & x2;
+    assign d_g = x3 | f;
+    always @(posedge clock) begin
+        f <= d_f;
+        g <= d_g;
+    end
+endmodule
